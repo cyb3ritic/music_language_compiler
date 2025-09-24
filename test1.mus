@@ -1,0 +1,16 @@
+# "Kal Ho Naa Ho" - Title Track
+# A heartfelt and melodic piece
+
+TEMPO = 95;
+VOLUME = 0.5;
+INSTRUMENT = "piano";
+
+# Iconic Piano Intro
+PLAY C4 DURATION = 2;
+PLAY D4 DURATION = 2;
+PLAY E4 DURATION = 2;
+PLAY F4 DURATION = 2;
+PLAY G4 DURATION = 2;
+PLAY A4 DURATION = 2;
+PLAY B4 DURATION = 2;
+PLAY C5 DURATION = 2;

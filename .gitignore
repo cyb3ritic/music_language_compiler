@@ -1,0 +1,29 @@
+# Byte-compiled and optimization files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environment
+/music_venv/
+
+# IDE and editor directories
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Generated audio files
+*.wav
+
+# Test and coverage reports
+.pytest_cache/
+.coverage
+htmlcov/

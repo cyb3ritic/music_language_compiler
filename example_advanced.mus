@@ -1,0 +1,34 @@
+
+# "Für Elise" by Beethoven (Opening)
+TEMPO = 80;
+VOLUME = 0.7;
+INSTRUMENT = "piano";
+
+# Right hand melody
+REPEAT 2 {
+    PLAY E5 DURATION = 0.4;
+    PLAY D#5 DURATION = 0.4;
+}
+PLAY E5 DURATION = 0.4;
+PLAY B4 DURATION = 0.4;
+PLAY D5 DURATION = 0.4;
+PLAY C5 DURATION = 0.4;
+PLAY A4 DURATION = 1.6;
+
+REST = 0.4;
+
+# Left hand accompaniment (simplified)
+VOLUME = 0.5;
+CHORD [A2, E3, A3] DURATION = 1.6;
+CHORD [E2, G#2, E3] DURATION = 1.6;
+CHORD [A2, E3, A3] DURATION = 1.6;
+
+# Melody continues
+VOLUME = 0.7;
+PLAY E5 DURATION = 0.4;
+PLAY D#5 DURATION = 0.4;
+PLAY E5 DURATION = 0.4;
+PLAY B4 DURATION = 0.4;
+PLAY D5 DURATION = 0.4;
+PLAY C5 DURATION = 0.4;
+PLAY A4 DURATION = 1.6;

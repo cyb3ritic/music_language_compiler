@@ -1,0 +1,46 @@
+# Happy Birthday Song
+# A simple and classic tune.
+
+TEMPO = 110;
+VOLUME = 0.8;
+INSTRUMENT = "piano";
+
+# "Happy birthday to you"
+PLAY C4 DURATION = 0.5;
+PLAY C4 DURATION = 0.5;
+PLAY D4 DURATION = 1;
+PLAY C4 DURATION = 1;
+PLAY F4 DURATION = 1;
+PLAY E4 DURATION = 2;
+REST = 0.5;
+
+# "Happy birthday to you"
+PLAY C4 DURATION = 0.5;
+PLAY C4 DURATION = 0.5;
+PLAY D4 DURATION = 1;
+PLAY C4 DURATION = 1;
+PLAY G4 DURATION = 1;
+PLAY F4 DURATION = 2;
+REST = 0.5;
+
+# "Happy birthday dear friend"
+PLAY C4 DURATION = 0.5;
+PLAY C4 DURATION = 0.5;
+PLAY C5 DURATION = 1;  # High note
+PLAY A4 DURATION = 1;
+PLAY F4 DURATION = 1;
+PLAY E4 DURATION = 1;
+PLAY D4 DURATION = 2;
+REST = 0.5;
+
+# "Happy birthday to you"
+PLAY A#4 DURATION = 0.5;
+PLAY A#4 DURATION = 0.5;
+PLAY A4 DURATION = 1;
+PLAY F4 DURATION = 1;
+PLAY G4 DURATION = 1;
+PLAY F4 DURATION = 2;
+REST = 0.5;
+
+# Final Chord
+CHORD [C4, E4, G4] DURATION = 4;
