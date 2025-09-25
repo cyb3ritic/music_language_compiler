@@ -47,7 +47,7 @@ The compiler is built in Python and demonstrates the classic stages of compilati
 1.  **Set up a virtual environment:**
     ```sh
     python -m venv music_venv
-    source music_venv/bin/activate  # On Windows, use `music_venv\Scripts\activate`
+    music_venv\Scripts\activate  # on Linux , use `source music_venv/bin/activate`
     ```
 
 2.  **Install dependencies:**
