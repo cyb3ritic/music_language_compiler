@@ -140,7 +140,7 @@ def create_example_programs():
 # "Twinkle Twinkle Little Star"
 TEMPO = 100;
 VOLUME = 0.8;
-INSTRUMENT = "piano";
+INSTRUMENT = "sine";
 
 # Verse 1
 PLAY C4 DURATION = 1;
