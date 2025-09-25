@@ -24,7 +24,7 @@ PLAY F4 DURATION = 2;
 REST = 0.5;
 
 # "Happy birthday dear friend"
-PLAY C4 DURATION = 0.5;
+PLAY C4 DURATION = 0.7;
 PLAY C4 DURATION = 0.5;
 PLAY C5 DURATION = 1;  # High note
 PLAY A4 DURATION = 1;
